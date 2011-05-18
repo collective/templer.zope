@@ -48,5 +48,7 @@ setup(name='templer.zope',
       test_suite='templer.zope.tests.test_all.test_suite',
       entry_points="""
       # -*- Entry points: -*-
+      [paste.paster_create_template]
+      basic_zope = templer.zope:BasicZope
       """,
       )
