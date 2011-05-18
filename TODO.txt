@@ -1,0 +1,4 @@
+* Create a reasonable template for a project-support buildout in zope
+* Add a question about zope version
+* Adjust 'zope2 proeuct' question to figure out the answer based on the 
+  previous question

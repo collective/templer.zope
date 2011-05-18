@@ -6,15 +6,14 @@ from templer.core.vars import BooleanVar
 VAR_ZOPE2 = BooleanVar(
         'zope2product',
         title='Zope2 Product?',
-        description='Are you creating a product for Zope2/Plone or an Archetypes Product?',
+        description='Are you creating a product for Zope2',
         default=True,
         modes=(),
         help="""
 Zope2 products will have a registration hook in their __init__.py,
 used by the Zope2 machinery to handle any required processes during
-server startup. Archetypes projects will require this, and all
-projects for Zope2/Plone will benefit from it (even if not strictly
-required, this allows the project to appear in places like the
+server startup. All projects for Zope2 will benefit from it (even if not
+strictly required, this allows the project to appear in places like the
 Zope2 Control Panel list of products).
 
 An appropriate time to choose False here would be if you are creating
