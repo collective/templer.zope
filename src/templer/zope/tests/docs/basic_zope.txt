@@ -10,7 +10,7 @@ Use paster::
 
 Let's check the content::
 
-    >>> package_dir = os.path.join('basiczope.example', 
+    >>> package_dir = os.path.join('basiczope.example', 'src',
     ...                            'basiczope', 'example')
     >>> ls(package_dir)
     README.txt
