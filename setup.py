@@ -38,7 +38,6 @@ setup(name='templer.zope',
           'templer.core',
           'templer.buildout',
       ],
-
       tests_require=[
           'zc.buildout==1.4.3',
           'Cheetah', 
