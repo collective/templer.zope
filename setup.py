@@ -14,6 +14,13 @@ long_description = (
     open('CHANGES.txt').read()
     + '\n')
 
+    
+tests_require=[
+    'Cheetah', 
+    'PasteScript',
+    'templer.core',
+    'templer.buildout'],
+
 setup(name='templer.zope',
       version=version,
       description="Templer system extensions for zope",
@@ -38,13 +45,9 @@ setup(name='templer.zope',
           'templer.core',
           'templer.buildout',
       ],
-      tests_require=[
-          'zc.buildout==1.4.3',
-          'Cheetah', 
-          'PasteScript',
-          'templer.core',
-          'templer.buildout'],
+      tests_require=tests_require,
       test_suite='templer.zope.tests.test_all.test_suite',
+      extras_require=dict(test=tests_require),
       entry_points="""
       # -*- Entry points: -*-
       [paste.paster_create_template]
