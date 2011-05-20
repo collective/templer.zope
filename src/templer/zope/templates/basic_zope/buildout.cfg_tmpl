@@ -9,4 +9,4 @@ interpreter = py
 scripts = runzope zopectl
 initialization =
   import sys
-  sys.argv[1:1] = ['-C',r'${buildout:directory}/etc/zope.conf']
+  sys.argv[1:1] = ['-C',r'\${buildout:directory}/etc/zope.conf']
