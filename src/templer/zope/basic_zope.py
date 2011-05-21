@@ -10,7 +10,7 @@ class BasicZope(abstract_zope.AbstractZope):
 This creates a basic Zope project.
 """
     required_templates = ['basic_namespace']
-    required_structures = ['egg_docs', 'bootstrap',]
+    default_required_structures = ['egg_docs', 'bootstrap',]
     use_cheetah = True
 
     vars = copy.deepcopy(abstract_zope.AbstractZope.vars)
