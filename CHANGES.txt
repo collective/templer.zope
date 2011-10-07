@@ -1,6 +1,11 @@
 Changelog
 =========
 
+1.0a2 October 7, 2011
+---------------------
+
+- Metadata fixes [cewing]
+
 1.0a1 October 7, 2011
 ---------------------
 
