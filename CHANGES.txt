@@ -1,8 +1,11 @@
 Changelog
 =========
 
-1.0a_devdev (unreleased)
-------------------------
+1.0a1 October 7, 2011
+---------------------
+
+- Ported abstract zope package and basic zope package from zopeskel along with
+  their tests [cewing]
 
 - Package created using zopeskel
   []
