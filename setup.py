@@ -28,9 +28,8 @@ setup(name='templer.zope',
       # Get more strings from
       # http://pypi.python.org/pypi?%3Aaction=list_classifiers
       classifiers=[
-          "Development Status :: 3 - Alpha",
+          "Development Status :: 4 - Beta",
           "Framework :: Zope2",
-          "Framework :: Zope3",
           "Framework :: Buildout",
           "Intended Audience :: Developers",
           "License :: OSI Approved :: MIT License",
@@ -40,7 +39,7 @@ setup(name='templer.zope',
           'Programming Language :: Python :: 2.6',
           "Topic :: Internet :: WWW/HTTP",
           "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
-          "Topic :: Software Development :: Code Generators",2
+          "Topic :: Software Development :: Code Generators",
         ],
       keywords='zope buildout',
       author='Cris Ewing',

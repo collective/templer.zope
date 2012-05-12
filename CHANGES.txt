@@ -1,6 +1,24 @@
 Changelog
 =========
 
+1.0b1 (Unreleased)
+------------------
+
+- create buildout configuration for zope packages that will work
+  [cewing]
+
+- modify package layout for basic zope template to mimic that of the Zope
+  Developers Guide (http://docs.zope.org/zope2/zdgbook/GettingStarted.html)
+  [cewing]
+
+- add a new nested zope template for a simple zope package skeleton with a 
+  nested namespace
+  [cewing]
+
+- renamed basic_zope to zope2_basic to maintain consistency in entry point
+  naming
+  [cewing]
+
 1.0a2 October 7, 2011
 ---------------------
 
