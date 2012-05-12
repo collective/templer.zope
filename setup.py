@@ -62,6 +62,7 @@ setup(name='templer.zope',
       entry_points="""
       # -*- Entry points: -*-
       [paste.paster_create_template]
-      basic_zope = templer.zope:BasicZope
+      zope2_basic = templer.zope:BasicZope
+      zope2_nested = templer.zope:NestedZope
       """,
       )
