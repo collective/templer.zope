@@ -14,4 +14,4 @@ interpreter = zopepy
 recipe = plone.recipe.zope2instance
 user = admin:admin
 http-address = 8080
-eggs = ${zope2:eggs}
+eggs = \${zope2:eggs}
