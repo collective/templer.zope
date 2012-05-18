@@ -1,7 +1,7 @@
 Changelog
 =========
 
-1.0b1 (Unreleased)
+1.0b1 May 17, 2012
 ------------------
 
 - create buildout configuration for zope packages that will work
@@ -17,6 +17,12 @@ Changelog
 
 - renamed basic_zope to zope2_basic to maintain consistency in entry point
   naming
+  [cewing]
+
+- add tests for zope2_nested template
+  [cewing]
+
+- updated README to reflect the new additions
   [cewing]
 
 1.0a2 October 7, 2011
