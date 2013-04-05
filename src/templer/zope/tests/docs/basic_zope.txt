@@ -2,10 +2,10 @@
 basic_namespace template
 ========================
 
-Use paster::
+Use templer::
 
-    >>> paster('create -t zope2_basic basiczope.example --no-interactive')
-    paster create -t zope2_basic basiczope.example --no-interactive
+    >>> templer('zope2_basic basiczope.example --no-interactive')
+    templer zope2_basic basiczope.example --no-interactive
     ...
 
 Let's check the content::

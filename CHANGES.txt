@@ -4,6 +4,8 @@ Changelog
 1.0b3 (unreleased)
 ------------------
 
+- Run templer instead of paster in tests
+
 1.0b2 May 20, 2012
 ------------------
 
